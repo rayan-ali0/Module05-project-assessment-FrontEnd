@@ -1,0 +1,80 @@
+.signPage{
+    /* border: 1px solid red; */
+    height: 99.7vh;
+    /* background-image: url('../../assests/Images/mountain.jpg'); */
+    object-fit: cover;
+    position: relative;
+}
+
+.backImg{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+    /* position: absolute; */
+}
+.SignForm{
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 30%;
+    position: absolute;
+    z-index: 3;
+    top: 80px;
+    left: 550px;
+    background-color: white;
+    /* height: 80%; */
+    padding: 1em;
+}
+.signTitle{
+    font-size: 1.8em;
+    color: #264311;
+    font-weight: bolder;
+    width: 100%;
+}
+.form{
+    /* border: 1px solid red; */
+/* height: 70%; */
+margin-top: 2em;
+width: 80%;
+margin: 2em  auto 2em auto;
+display: flex;
+flex-direction: column;
+justify-content: start;
+gap:1em
+}
+.inputs , .signBtn{
+    width: 100%;
+}
+.btns{
+    border-radius: 35px;
+    height: 2.3em;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+}
+.signBtn{
+    background-color: #264311;
+}
+.GBtn{
+    background-color: #4184F3;
+}
+.googleImg{
+    height: 80%;
+    width: 30px;
+}
+.links{
+    color: #264311;
+}
+.signSpan{
+    color: gray;
+}
+.hide{
+    display: none;
+}
+.show{
+    width: 100%;
+
+}

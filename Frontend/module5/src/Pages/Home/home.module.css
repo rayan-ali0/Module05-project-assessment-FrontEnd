@@ -1,0 +1,22 @@
+.btns{
+    border-radius: 35px;
+    height: 2.3em;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+}
+.signBtn{
+    background-color: #264311;
+}
+
+.productsHolder{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    gap:1em
+}
